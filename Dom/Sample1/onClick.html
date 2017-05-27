@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>clickで文字を変えるよ</title>
+  <script>
+  function change() {
+    document.getElementById('hoge').innerHTML = '変わったやん！';
+  }
+  </script>
+</head>
+<body>
+  <div id="hoge">ここがクリックすると変わります</div>
+  <form>
+    <input
+    type="button"
+    onclick="change()"
+    value="ここを押すんや"
+    />
+  </form>
+</body>
+</html>
