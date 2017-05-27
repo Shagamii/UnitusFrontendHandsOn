@@ -15,6 +15,7 @@ $ nodebrew use stable
 $ node -v
 // ここでversionが表示されればok
 ```
+  - http://mmorley.hatenablog.com/entry/2016/11/22/233034 
 
 - Windows
   - http://qiita.com/taipon_rock/items/9001ae194571feb63a5e
